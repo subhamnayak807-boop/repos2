@@ -86,8 +86,8 @@ h1 em { color: var(--rose); font-weight: 500; }
 .quick-intro::before { content: ""; position: absolute; width: 380px; height: 380px; right: -160px; top: -220px; border: 1px solid rgba(255,255,255,.09); border-radius: 50%; box-shadow: 0 0 0 55px rgba(255,255,255,.025), 0 0 0 110px rgba(255,255,255,.02); }
 .quick-intro__inner { min-height: 275px; display: grid; grid-template-columns: 250px 1fr; gap: 55px; align-items: center; position: relative; }
 .quick-intro__portrait { width: 220px; height: 255px; align-self: end; position: relative; }
-.quick-intro__glow { position: absolute; width: 205px; height: 205px; left: 50%; top: 24px; transform: translateX(-50%); border-radius: 50%; background: linear-gradient(145deg, #f6d2cc, #dca9b9); box-shadow: 0 0 0 12px rgba(255,255,255,.05); }
-.quick-intro__portrait img { width: 245px; height: 280px; position: absolute; left: 46%; bottom: -52px; transform: translateX(-50%); object-fit: contain; object-position: center bottom; filter: drop-shadow(0 15px 20px rgba(22,1,17,.28)); }
+.quick-intro__glow { position: absolute; width: 205px; height: 205px; left: 50%; top: 24px; transform: translateX(-50%); overflow: hidden; border-radius: 50%; background: linear-gradient(145deg, #f6d2cc, #dca9b9); box-shadow: 0 0 0 12px rgba(255,255,255,.05); }
+.quick-intro__portrait img { width: 245px; height: 280px; position: absolute; left: 50%; bottom: -65px; transform: translateX(-50%); object-fit: contain; object-position: center bottom; filter: drop-shadow(0 15px 20px rgba(22,1,17,.28)); }
 .quick-intro__copy { max-width: 720px; position: relative; z-index: 2; }
 .quick-intro__copy .kicker { color: #f1a99e; }
 .quick-intro__copy h2 { margin: 4px 0 4px; color: white; font: 600 clamp(38px,4vw,51px)/1.15 var(--serif); }
@@ -286,9 +286,9 @@ footer { color: #ecdce7; background: #280824; }
   .hero__video-note { padding: 10px 4px 2px; }
   .quick-intro { padding: 55px 0 47px; }
   .quick-intro__inner { grid-template-columns: 1fr; gap: 22px; text-align: center; }
-  .quick-intro__portrait { width: 205px; height: 210px; margin: 0 auto; overflow: hidden; border-radius: 110px 110px 14px 14px; }
+  .quick-intro__portrait { width: 205px; height: 210px; margin: 0 auto; }
   .quick-intro__glow { width: 185px; height: 185px; top: 15px; }
-  .quick-intro__portrait img { width: 225px; height: 255px; bottom: -35px; }
+  .quick-intro__portrait img { width: 225px; height: 255px; bottom: -55px; }
   .quick-intro__roles { justify-content: center; gap: 7px; }
   .quick-intro__copy p { font-size: 16px; }
   .quick-intro__monogram { display: none; }
